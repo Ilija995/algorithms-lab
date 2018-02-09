@@ -1,7 +1,24 @@
+.fuse_hidden*
+.DS_Store
+
+# Project files
+*.cbp
+*.depend
+*.layout
+
 # Prerequisites
 *.d
 
 # Compiled Object files
+bin/
+obj/
+build/
+CMakeFiles/
+CMakeLists.txt
+CMakeCache.txt
+Makefile
+main
+*.cmake
 *.slo
 *.lo
 *.o
@@ -28,5 +45,4 @@
 
 # Executables
 *.exe
-*.out
 *.app
